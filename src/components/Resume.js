@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../images/bg.jpg'
+import resume from '../images/Sayyam Jain - Resume.pdf'
 const Resume = () => {
   return (
     <div id='resume'>
         <h2 className='mt-20 text-3xl head'>Resume</h2>
         <hr />
         <div className='flex flex-col gap-10 lg:m-10 justify-center items-center lg:flex-row '>
-          <a target='_blank' rel="noreferrer" href={img} ><button className="h-12 head text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg mt-10" >
+          <a target='_blank' rel="noreferrer" href={resume} ><button className="h-12 head text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 rounded text-lg mt-10" >
                       Resume
             </button></a>
             

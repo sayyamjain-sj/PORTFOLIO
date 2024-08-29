@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {AiFillInstagram} from 'react-icons/ai'
+
 
 
 const About = () => {
@@ -31,9 +31,9 @@ const About = () => {
         </div>
         
         <div className='flex gap-12 justify-center mt-10 text-2xl'>
-            <a href="https://github.com/hanumantjain"  ><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/hanumant-jain-621745173" ><AiFillLinkedin /></a>
-            <a href="https://instagram.com/hanu_0108?igshid=NzZlODBkYWE4Ng=="><AiFillInstagram /></a>
+            <a href="https://github.com/sayyamjain-sj"  ><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/sayyamjain-sj/" ><AiFillLinkedin /></a>
+            
         </div>
         
         
