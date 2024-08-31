@@ -14,6 +14,7 @@ const Resume = () => {
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>C</h6>
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>C++</h6>
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>Java</h6>
+                <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>SQL</h6>
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>HTML</h6>
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>CSS</h6>
                 <h6 className='h-12 border-2 text-md py-2 px-4 m-2 w-fit'>JavaScript</h6>
