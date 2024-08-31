@@ -8,21 +8,29 @@ const Contact = () => {
     const [message, setMessage] = useState("")
 
     const form = useRef()
-
+    const validateEmail = (email) => {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        return regex.test(email)
+    }
     const sendEmail = (e) => {
-    e.preventDefault()
+        e.preventDefault()
+        
+        if (!validateEmail(email)) {
+            alert("Please enter a valid email address.")
+            return
+        }
 
         setName("")
         setEmail("")
         setMessage("")
 
-    emailjs.sendForm('service_urtljib', 'template_2trnvf8', form.current, 'w8ZY_7yR9WdT_-Zu5')
-      .then((result) => {
-        alert("Message Sent!")
-      }, (error) => {
-       alert("Error - Message not sent!")
-      });
-  };
+        emailjs.sendForm('service_urtljib', 'template_19n5j4j', form.current, 'AwP9LdmEEczOlGtzJ')
+            .then((result) => {
+                alert("Message Sent!")
+            }, (error) => {
+                alert("Error - Message not sent!")
+            })
+    }
   return (
     <div id='contact' className='mt-20 px-10'>
         <h1 className=' text-3xl head'>Contact</h1>
